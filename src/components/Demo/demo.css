@@ -1,0 +1,61 @@
+.demoGrid{
+    display: Grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 50px;
+}
+
+.demoGridItem img{
+    width: 100%;
+    
+    padding: 50px 0 0 0;
+}
+
+.demoGridItem h2{
+    font-size: 50px;
+}
+
+.demoGridItem p{
+    font-size: 18px;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+}
+
+.app .apple-icon{
+    height: 55px;
+    width: 46px;
+}
+
+.app .android-icon{
+    height: 81px;
+    width: 122px;
+}
+
+
+@media (max-width:775px){
+    .demoGrid{
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    .demoGridItem h2{
+        font-size: 30px;
+    }
+    
+}
+
+
+@media (max-width:475px){
+    .demoGrid{
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    .demoGridItem h2{
+        font-size: 30px;
+    }
+    
+}

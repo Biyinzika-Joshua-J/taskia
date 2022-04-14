@@ -1,0 +1,61 @@
+.importanceGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+    padding: 70px  0 0 0;
+}
+
+.importanceImage img{
+    width: 100%;
+    padding:50px 0 0 0;
+}
+
+.importanceText h2{
+    font-size:50px;
+}
+
+.importanceText p{
+    font-size:18px;
+}
+
+@media (max-width:775px){
+    .importanceGrid{
+        display:flex;
+        flex-direction:column;
+     }
+ 
+     .importanceGrid .importanceImage{
+        order:2;
+     }
+ 
+     .importanceGrid .importanceText{
+         order:1;
+     }
+ 
+
+    .importanceText h2{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width:475px){
+    .importanceGrid{
+       display:flex;
+       flex-direction:column;
+    }
+
+    .importanceGrid .importanceImage{
+       order:2;
+    }
+
+    .importanceGrid .importanceText{
+        order:1;
+    }
+
+    .importanceText h2{
+        font-size: 30px;
+    }
+   
+}

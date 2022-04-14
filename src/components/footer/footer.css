@@ -1,0 +1,51 @@
+.footer{
+    padding: 50px  0;
+    text-align:center;
+}
+
+.footer h2{
+    font-size: 50px;
+}
+
+.footer p{
+    font-size: 18px;
+}
+
+.email input{
+    margin-right: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: #ddd 2px solid;
+    outline: none;
+}
+
+.heroBtn2{
+    padding: 0 25px;
+    height: 40px;
+}
+
+.heroBtn2:hover{
+    background-color: #fff !important;
+    color: #525FFB !important;
+}
+
+@media (max-width:775px){
+    .footer h2{
+        font-size: 30px;
+    }
+
+    
+
+   
+}
+
+@media (max-width:475px){
+    .footer h2{
+        font-size: 30px;
+    }
+
+    .email input{
+        margin-bottom: 20px;
+    }
+    
+}
